@@ -3,7 +3,7 @@ CREATE TABLE usuario (
     nm_usuario varchar(50) NOT NULL,
     ds_senha varchar(100) NOT NULL,
     tp_usuario varchar(1) NOT NULL,
-    CONSTRAINT pk_usuario PRIMARY KEY (cd_usurio) 
+    CONSTRAINT pk_usuario PRIMARY KEY (cd_usuario) 
 );
 
 CREATE TABLE sala (
